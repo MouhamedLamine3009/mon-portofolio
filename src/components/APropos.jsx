@@ -172,8 +172,8 @@ export default function APropos() {
 
               <div className="space-y-4">
                 {[
-                  { name: 'Français', level: 'Courant • Niveau C2 / Langue d\'instruction', pct: 85 },
-                  { name: 'Anglais', level: 'Intermédiaire • Documentation & Collaboration', pct: 40 },
+                  { name: 'Français', level: 'Courant • Niveau C2 / Langue d\'instruction', pct: 80 },
+                  { name: 'Anglais', level: 'Intermédiaire • Documentation & Collaboration', pct: 35 },
                 ].map((lang) => (
                   <div key={lang.name} className="bg-surface-container-high rounded-xl p-4">
                     <div className="flex items-baseline justify-between mb-2">

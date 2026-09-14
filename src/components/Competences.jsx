@@ -111,8 +111,8 @@ export default function Competences() {
               {[
                 { name: 'React', level: 50, label: 'Intermédiaire' },
                 { name: 'Next.js (App Router)', level: 50, label: 'Intermédiaire' },
-                { name: 'Laravel / Inertia.js', level: 50, label: 'Intermédiaire' },
-                { name: 'Laravel / Livewire', level: 50, label: 'Intermédiaire' },
+                { name: 'Laravel / Inertia.js', level: 65, label: 'Intermédiaire' },
+                { name: 'Laravel / Livewire', level: 65, label: 'Intermédiaire' },
               ].map((fw) => (
                 <div key={fw.name} className="p-3 rounded-lg bg-surface-container-lowest flex flex-col gap-1">
                   <div className="flex items-center justify-between">
